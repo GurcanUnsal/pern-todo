@@ -13,8 +13,9 @@ const InputTodo = () => {
         body: JSON.stringify(body),
       });
 
-    //  const json = await response.json();
+      //  const json = await response.json();
       console.log(response);
+      window.location = "/";
     } catch (err) {
       console.error(err.message);
     }
